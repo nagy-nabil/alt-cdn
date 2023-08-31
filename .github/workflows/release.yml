@@ -2,8 +2,6 @@ name: 'Build And Create New Release'
 
 on:
     push:
-        branches:
-            - main
 permissions:
     contents: write
 
