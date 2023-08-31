@@ -2,8 +2,8 @@ name: 'Build And Create New Release'
 
 on:
     push:
-      tags:
-          - "v*.*.*"
+        tags:
+            - 'v*'
 permissions:
     contents: write
 
